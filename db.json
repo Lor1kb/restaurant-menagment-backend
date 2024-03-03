@@ -1,0 +1,129 @@
+{
+    "Menu": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "menu_list":[
+               {
+                "id": 1,
+                "name": "Margarita pizza",
+                "ingredients": "cheese, sauce,",
+                "price": "4.99$"
+               },
+               {
+                "id": 2,
+                "name": "Homemade pizza",
+                "ingredients": "cheese, sauce, mushrooms, sausage,",
+                "price":"6.99$"
+               },
+               {
+                "id": 3,
+                "name": "Tuna pizza",
+                "ingredients": "cheese, sauce, tuna fish, mushrooms",
+                "price":"5.99$"
+               },
+               {
+                "id": 4,
+                "name": "Vegetarian pizza",
+                "ingredients": "sauce, cheese, tomatoes, peppers, corn",
+                "price":"4.99$"
+               }
+            ]
+        },
+        {
+            "id":2,
+            "name": "Salad",
+            "menu_list": [
+                {
+                    "id": 1,
+                    "name": "Shop salad",
+                    "ingredients": "tomatoes, cucumbers, onions, peppers, cheese, olive oil, vinegar, salt",
+                    "price":"3.99$"
+                },
+                {
+                    "id": 2,
+                    "name": "Cesar salad",
+                    "ingredients": "vinegar, toast, mayonnaise, chicken, olive oil, garlic",
+                    "price":"3.99$"
+                },
+                {
+                    "id": 3,
+                    "name": "Salad with potato",
+                    "ingredients": "boiled potatoes, carrots, onions, green salad",
+                    "price":"3.99$"
+                },
+                {
+                    "id": 4,
+                    "name": "Salad with arugula",
+                    "ingredients": "tomato, arugula, cucumber, olive oil",
+                    "price":"3.99$"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Desserts",
+            "menu_list":[
+                {
+                    "id": 1,
+                    "name": "Tiramisu",
+                    "ingredients": "Masarpone, cheese, Ladyfingers, Coffee",
+                    "price":"2.99$"
+                },
+                {
+                    "id": 2,
+                    "name": "Raffaelo Cake",
+                    "ingredients": "Coconut , Milk, Almond",
+                    "price":"3.99$"
+                },
+                {
+                    "id": 3,
+                    "name": "Chocolate Lava Cake",
+                    "ingredients": "Chocolate, Suggar , Butter",
+                    "price":"3.50$"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Drinks",
+            "menu_list":[
+                {
+                   "id":1,
+                   "name": "Coca-Cola",
+                   "price": "1.20$"
+                },
+                {
+                    "id": 2,
+                    "name": "Ice tea",
+                    "price": "1.20$"
+                },
+                {
+                    "id": 3,
+                    "name": "Orange juice",
+                    "price": "1.20$"
+                },
+                {
+                    "id": 4,
+                    "name": "Apple juice",
+                    "price": "1.20$"
+                },
+                {
+                    "id": 5,
+                    "name": "Fanta",
+                    "price": "1.20$"
+                },
+                {
+                    "id": 6,
+                    "name": "Rc cola",
+                    "price": "1.20$"
+                },
+                {
+                    "id": 7,
+                    "name": "Golden eagle",
+                    "price": "1.20$"
+                }
+            ]
+        }
+    ]
+}
