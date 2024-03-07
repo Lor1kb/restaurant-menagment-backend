@@ -8,10 +8,10 @@ const middlewares = jsonServer.defaults();
 server.use(jsonServer.bodyParser);
 server.use(middlewares); //logger, cors etc.
 
-//const restaurantsRoutes = require(".routes/restaurants");
+const restaurantsRoutes = require(".routes/restaurants");
 //const menyRoutes = require(".routes/meny");
 
-//restaurantsRoutes(server);
+restaurantsRoutes(server);
 //menyRoutes(server);
 
 server.listen(jsonServerPort, () =>{
