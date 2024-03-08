@@ -7,7 +7,7 @@ module.exports = function(server){
 
    const router = jsonServer.router("db.json");
 
-   server.delete("/api/departments/delete/:id", (request, response) =>{
+   server.delete("/api/Menu/delete/:id", (request, response) =>{
     const MenuId = parseInt(request.params.id);
 
     const MenuData = router.db.get("Menu").value();
@@ -21,7 +21,7 @@ module.exports = function(server){
     response.json({message: "Order deleted successfully!"});
    });
 
-   server.get("/api/departments/all", (request,response) =>{
+   server.get("/api/Menu/all", (request,response) =>{
     const MenuData = router.db.get("Menu").value();
     response.json(MenuData);
    })
